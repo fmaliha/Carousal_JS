@@ -1,0 +1,52 @@
+/**{
+	padding: 0px;
+	magin: 0px;
+	box-sizing: border-box;
+}*/
+body{
+margin: 0px;
+
+}
+.Carousel-container{
+
+	/*width: 900px;*/
+	width: 95%;
+	/*height: 15%*/
+	margin: 0px;
+/*	margin: 0px;*/
+	overflow: hidden;
+	/*border: 2px solid black;*/
+	position: relative;
+	padding: 0px;
+}
+
+.carousel-slide{
+	display: flex;       /*gets the images side by side*/
+	height: 600px;
+	width: 100%;
+}
+
+#btnPrev{
+	position: absolute;
+	top: 45%;
+	z-index: 10;   /* makes the arrow over the container with container position relative*/
+	left: 2%;
+	font-size: 60px;
+	color: white;
+	opacity: .8;  /*made the black color grey means intensity*/
+	cursor: pointer;  /*cursor changed to a hand one*/
+
+
+}
+
+#btnNext{
+	position: absolute;
+	top: 45%;
+	z-index: 10;   /* makes the arrow over the container with container position relative*/
+	right: 2%;
+	font-size: 60px;
+	color: white;
+	opacity: .8;  /*made the black color grey means intensity*/
+	cursor: pointer;  /*cursor changed to a hand one*/
+
+}
